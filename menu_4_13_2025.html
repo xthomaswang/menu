@@ -3,97 +3,147 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>One-Person Fine Dining Menu</title>
+  <title>One-Person Fine Dining Menu | 一人精致晚宴菜单</title>
   <style>
     body {
-      font-family: 'Helvetica Neue', sans-serif;
+      font-family: 'Georgia', serif;
+      background-color: #fdfdfc;
+      color: #2e2e2e;
       margin: 0;
       padding: 0;
-      background: #f8f8f8;
-      color: #333;
+      line-height: 1.8;
     }
     .container {
-      max-width: 700px;
-      margin: auto;
-      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
     }
-    h1, h2 {
+    h1 {
       text-align: center;
-      color: #4b2e2e;
-    }
-    .dish {
+      font-size: 2.5rem;
       margin-bottom: 2rem;
+      color: #3c2c20;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      color: #5a4334;
     }
     .dish h3 {
-      margin: 0.5rem 0;
-      color: #6e4d4d;
+      font-weight: bold;
+      margin: 1rem 0 0.3rem;
     }
     .dish p {
       margin: 0.2rem 0;
     }
-    .section-title {
-      margin-top: 3rem;
-      font-size: 1.5rem;
-      border-top: 1px solid #ccc;
-      padding-top: 1rem;
+    .dual {
+      display: flex;
+      flex-direction: column;
+    }
+    .dual > div {
+      margin-bottom: 0.5rem;
+    }
+    .en {
+      font-style: italic;
+      color: #555;
+    }
+    .zh {
+      font-weight: normal;
+      color: #2e2e2e;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>One-Person Fine Dining Menu</h1>
+    <h1>One-Person Fine Dining Menu<br>一人精致晚宴菜单</h1>
 
-    <div class="dish">
-      <h2>🥖 Garlic Parmesan Bread</h2>
-      <h3>Description:</h3>
-      <p>Crispy baguette brushed with garlic butter and topped with Parmigiano Reggiano.</p>
-      <h3>Key Ingredients:</h3>
-      <p>Baguette, garlic butter, parmesan cheese</p>
+    <div class="section">
+      <h2>Garlic Parmesan Bread｜香蒜帕玛森面包</h2>
+      <div class="dish">
+        <h3>Description｜简介</h3>
+        <div class="dual">
+          <div class="en">Toasted artisan baguette with rich garlic butter and aged parmesan.</div>
+          <div class="zh">烤制法棍面包，抹上蒜香黄油与陈年帕玛森干酪，金黄酥脆。</div>
+        </div>
+        <h3>Key Ingredients｜主要食材</h3>
+        <p>Baguette, garlic butter, Parmigiano Reggiano</p>
+      </div>
     </div>
 
-    <div class="dish">
-      <h2>🥣 Creamy Mushroom Soup</h2>
-      <h3>Description:</h3>
-      <p>Rich and velvety mushroom soup with milk and sautéed onions.</p>
-      <h3>Key Ingredients:</h3>
-      <p>Mushrooms, onion, butter, chicken broth, milk</p>
+    <div class="section">
+      <h2>Creamy Mushroom Soup｜奶油蘑菇汤</h2>
+      <div class="dish">
+        <h3>Description｜简介</h3>
+        <div class="dual">
+          <div class="en">A silky blend of sautéed mushrooms and onions in a light cream broth.</div>
+          <div class="zh">炒香蘑菇与洋葱，融合在丝滑的奶油鸡汤中，浓郁温润。</div>
+        </div>
+        <h3>Key Ingredients｜主要食材</h3>
+        <p>Mushrooms, onion, chicken broth, milk, butter</p>
+      </div>
     </div>
 
-    <div class="dish">
-      <h2>🐚 Pan-Seared Scallops</h2>
-      <h3>Description:</h3>
-      <p>Golden seared scallops with lemon zest and butter glaze.</p>
-      <h3>Key Ingredients:</h3>
-      <p>U-10 scallops, salt, pepper, avocado oil, butter, lemon zest</p>
+    <div class="section">
+      <h2>Pan-Seared Scallops｜香煎干贝</h2>
+      <div class="dish">
+        <h3>Description｜简介</h3>
+        <div class="dual">
+          <div class="en">Golden-seared scallops with a touch of lemon zest and butter glaze.</div>
+          <div class="zh">外焦里嫩的香煎干贝，点缀柠檬皮屑与黄油，精致淡雅。</div>
+        </div>
+        <h3>Key Ingredients｜主要食材</h3>
+        <p>U-10 scallops, butter, lemon zest, salt, pepper</p>
+      </div>
     </div>
 
-    <div class="dish">
-      <h2>🥩 Filet Mignon with Red Wine Sauce</h2>
-      <h3>Description:</h3>
-      <p>Seared tenderloin steak served with a luxurious red wine butter reduction.</p>
-      <h3>Key Ingredients:</h3>
-      <p>Filet mignon, red wine, butter, thyme, garlic</p>
+    <div class="section">
+      <h2>Filet Mignon with Red Wine Reduction｜菲力牛排佐红酒汁</h2>
+      <div class="dish">
+        <h3>Description｜简介</h3>
+        <div class="dual">
+          <div class="en">Tender filet steak seared to perfection, served with a classic red wine sauce.</div>
+          <div class="zh">嫩滑菲力牛排煎至恰到好处，佐以经典红酒浓汁，风味高雅。</div>
+        </div>
+        <h3>Key Ingredients｜主要食材</h3>
+        <p>Filet mignon, red wine, butter, thyme, garlic</p>
+      </div>
     </div>
 
-    <div class="dish">
-      <h2>🍫 Molten Chocolate Cake</h2>
-      <h3>Description:</h3>
-      <p>Soft baked chocolate cake with a melted center, perfect with vanilla ice cream.</p>
-      <h3>Key Ingredients:</h3>
-      <p>Dark chocolate, egg, sugar, flour, butter</p>
+    <div class="section">
+      <h2>Molten Chocolate Cake｜巧克力熔岩蛋糕</h2>
+      <div class="dish">
+        <h3>Description｜简介</h3>
+        <div class="dual">
+          <div class="en">Rich dark chocolate cake with a warm, molten center. Perfectly paired with vanilla ice cream.</div>
+          <div class="zh">浓郁黑巧克力蛋糕，内芯柔滑流心，搭配香草冰淇淋风味更佳。</div>
+        </div>
+        <h3>Key Ingredients｜主要食材</h3>
+        <p>Dark chocolate, egg, sugar, butter, flour</p>
+      </div>
     </div>
 
-    <div class="section-title">🥂 Beverage Pairings</div>
-    <div class="dish">
-      <h3>With Filet Mignon:</h3>
-      <p><strong>Meiomi Pinot Noir</strong> – Smooth, fruity red with low acidity</p>
+    <div class="section">
+      <h2>Beverage Pairings｜饮品搭配</h2>
+      <div class="dish">
+        <h3>With Filet Mignon｜搭配牛排</h3>
+        <div class="dual">
+          <div class="en">Meiomi Pinot Noir – Smooth, fruit-forward red wine with low tannins.</div>
+          <div class="zh">Meiomi 黑皮诺红酒 —— 柔顺果香，低单宁，适配牛排。</div>
+        </div>
 
-      <h3>With Chocolate Cake:</h3>
-      <p><strong>Saracco Moscato d’Asti</strong> – Sweet, lightly sparkling dessert wine</p>
-
-      <h3>Non-Alcoholic:</h3>
-      <p><strong>S.Pellegrino Essenza (Grapefruit & Black Pepper)</strong> – Elegant sparkling water with subtle flavor</p>
+        <h3>With Dessert｜搭配甜点</h3>
+        <div class="dual">
+          <div class="en">Saracco Moscato d’Asti – Lightly sparkling sweet wine with floral and peach notes.</div>
+          <div class="zh">Saracco 莫斯卡托甜起泡酒 —— 果香与花香交融，轻盈清甜。</div>
+        </div>
+        
+      </div>
     </div>
   </div>
 </body>
 </html>
+
